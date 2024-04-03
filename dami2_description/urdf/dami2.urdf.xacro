@@ -199,13 +199,13 @@
                iyy="0.001" iyz="0.0"
                izz="0.001" />
     </inertial>
-<!--    <visual>
+    <visual>
       <origin xyz="0 0 0 " rpy="0 0 1.570796" />
       <geometry>
         <mesh filename="package://dami2_description/meshes/sensors/kinect.dae" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dark"/>
-    </visual>-->
+    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
